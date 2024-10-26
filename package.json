@@ -1,0 +1,28 @@
+{
+  "name": "apply-attributes-filter-sort-and-order",
+  "version": "1.0.0",
+  "description": "This package is used to Apply Response Attributes Mapping, Filter Based On LogicalExpression, And Perform Sorting And Ordering",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karmakaranshuofficial76/Apply-Attributes-Filter-Sort-And-Order.git"
+  },
+  "keywords": [
+    "AAFSAD"
+  ],
+  "author": "Anshu Karmakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karmakaranshuofficial76/Apply-Attributes-Filter-Sort-And-Order/issues"
+  },
+  "homepage": "https://github.com/karmakaranshuofficial76/Apply-Attributes-Filter-Sort-And-Order#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

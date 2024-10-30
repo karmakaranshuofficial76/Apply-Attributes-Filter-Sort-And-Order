@@ -2,12 +2,19 @@
   "name": "apply-attributes-filter-sort-and-order",
   "version": "1.0.0",
   "description": "This package is used to Apply Response Attributes Mapping, Filter Based On LogicalExpression, And Perform Sorting And Ordering",
-  "main": "index.js",
+  "main": "build/index.js",
+  "type": "module",
+  "types": "build/index.d.ts",
+  "files": [
+    "build",
+    "README.md"
+  ],
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -23,6 +30,8 @@
   },
   "homepage": "https://github.com/karmakaranshuofficial76/Apply-Attributes-Filter-Sort-And-Order#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "typescript": "^5.6.3",
+    "@types/lodash": "^4.17.13"
   }
 }
